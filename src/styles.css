@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Russo+One&family=Teko:wght@700&display=swap');
+
+header {
+  text-align: left;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-size: 80px;
+  letter-spacing: -1px;
+  line-height: 0.8;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: red;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-size: 35px;
+  letter-spacing: -1px;
+  line-height: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: darkblue;
+}
+
+p {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-size: 35px;
+  letter-spacing: -1px;
+  word-spacing: 10px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: darkblue;
+}
+
+#position {
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+}
+
+.rosterNames {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  font-size: 35px;
+  letter-spacing: -1px;
+  line-height: 1;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: darkblue;
+}
+
+body {
+  background-color: #40A5E4;
+  background-image: url("https://www.seekpng.com/png/full/140-1408939_houston-rockets-logo-letter-winnipeg-titans-female-hockey.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+
+a:link,
+a:visited {
+  color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  text-decoration: overline;
+}
+
+a:active {
+  color: darkblue;
+}
+
+#posPG,
+#posSG,
+#posSF,
+#posPF,
+#posC {
+  display: none;
+  padding-bottom: 100px;
+  margin: 0;
+}

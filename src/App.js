@@ -1,23 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import { players } from './data'
+import './styles.css'
 
 function App() {
+  const [selectedPositions, setSelectedPositions] = useState([]);
+
+  function togglePosition(position) {
+    if (selectedPositions.includes(position)) {
+      setSelectedPositions(selectedPositions.filter((pos) => pos !== position));
+    } else {
+      setSelectedPositions([position]);
+    }
+  }
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <title>Houston Rockets Roster</title>
+      <header className="header">HOUSTON ROCKETS</header>
+      <h1 className="heading">2022-2023 ROSTER</h1>
+
+      <div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <b>POSITION</b>&nbsp;
+          <span id="position">
+            {players.map((player, index) => (
+              <a
+                key={index}
+                onClick={() => togglePosition(player.position)}
+                id={player.position}
+                href={`#pos${player.position}`}
+              >
+                {player.position}&nbsp;
+              </a>
+            ))}
+          </span>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+
+      {players.map((player, index) => {
+        const isPositionSelected = selectedPositions.includes(player.position);
+
+        return (
+          <div
+            key={index}
+            id={`pos${player.position}`}
+            className="rosterNames"
+            style={{ display: isPositionSelected ? 'block' : 'none' }}
+          >
+            {player.names.map((name, idx) => (
+              <p key={idx}>
+                {name} <b>{player.position}</b>
+                <br />
+              </p>
+            ))}
+          </div>
+        );
+      })}
     </div>
   );
 }
