@@ -2,6 +2,7 @@ export const players = [
     {
       position: 'PG',
       names: [
+        'Amen Thompson',
         'Trevor Hudgins',
         'Daishen Nix',
         'Kevin Porter Jr',
@@ -17,6 +18,7 @@ export const players = [
     {
       position: 'SF',
       names: [
+        'Cam Whitmore',
         'Darius Days',
         'Tari Eason',
         'Kenyon Martin Jr',
