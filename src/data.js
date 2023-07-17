@@ -2,17 +2,15 @@ export const players = [
     {
       position: 'PG',
       names: [
+        'Fred VanVleet',
         'Amen Thompson',
         'Trevor Hudgins',
-        'Daishen Nix',
-        'Kevin Porter Jr',
-        'TyTy Washington',
       ],
     },
     {
       position: 'SG',
       names: [
-       'Josh Christopher',
+       'Kevin Porter Jr',
        'Jalen Green'],
     },
     {
@@ -21,21 +19,21 @@ export const players = [
         'Cam Whitmore',
         'Darius Days',
         'Tari Eason',
-        'Kenyon Martin Jr',
+        'Dillon Brooks',
         "Jae'sean Tate",
       ],
     },
     {
       position: 'PF',
       names: [
-        'Usman Garuba', 
+        'Jeff Green',
         'Frank Kaminsky', 
         'Jabari Smith Jr'],
     },
     {
       position: 'C',
       names: [
-        'Willie Cauley-Stein', 
+        'Jock Landale', 
         'Boban Marjanovic', 
         'Alperen Sengun'],
     },
