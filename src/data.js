@@ -5,18 +5,18 @@ export const players = [
         'Fred VanVleet',
         'Amen Thompson',
         'Trevor Hudgins',
+        'Justin Holiday'
       ],
     },
     {
       position: 'SG',
       names: [
-       'Kevin Porter Jr',
+        'Cam Whitmore',
        'Jalen Green'],
     },
     {
       position: 'SF',
       names: [
-        'Cam Whitmore',
         'Darius Days',
         'Tari Eason',
         'Dillon Brooks',
@@ -27,15 +27,16 @@ export const players = [
       position: 'PF',
       names: [
         'Jeff Green',
-        'Frank Kaminsky', 
-        'Jabari Smith Jr'],
+        'Jabari Smith Jr']
     },
     {
       position: 'C',
       names: [
         'Jock Landale', 
         'Boban Marjanovic', 
-        'Alperen Sengun'],
+        'Alperen Sengun',
+        'Steven Adams']
+        
     },
   ];
   
