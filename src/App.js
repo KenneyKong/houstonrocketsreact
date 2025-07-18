@@ -18,7 +18,7 @@ function App() {
     <div>
       <title>Houston Rockets Roster</title>
       <header className="header">HOUSTON ROCKETS</header>
-      <h1 className="heading">2023-2024 ROSTER</h1>
+      <h1 className="heading">2025-2026 ROSTER</h1>
 
       <div>
         <p>

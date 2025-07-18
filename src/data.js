@@ -3,37 +3,38 @@ export const players = [
       position: 'PG',
       names: [
         'Fred VanVleet',
-        'Amen Thompson',
-        'Trevor Hudgins',
+        'Aaron Holiday',
         'Justin Holiday'
       ],
     },
     {
       position: 'SG',
       names: [
-        'Cam Whitmore',
-       'Jalen Green'],
+       'Reed Shepperd',
+       'Kevon Harris'],
     },
     {
       position: 'SF',
       names: [
-        'Darius Days',
+        'Kevin Durant',
+        'Amen Thompson',
         'Tari Eason',
-        'Dillon Brooks',
-        "Jae'sean Tate",
+        "Jae'sean Tate"
       ],
     },
     {
       position: 'PF',
       names: [
         'Jeff Green',
-        'Jabari Smith Jr']
+        'Jabari Smith Jr',
+        'Dorian Finney-Smith'
+      ]
     },
     {
       position: 'C',
       names: [
-        'Jock Landale', 
-        'Boban Marjanovic', 
+        'Clint Capela', 
+        `'N'Faly Dante'`, 
         'Alperen Sengun',
         'Steven Adams']
         
