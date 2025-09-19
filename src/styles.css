@@ -3,7 +3,7 @@
 header {
   text-align: left;
   font-family: 'Russo One', sans-serif;
-  color: #fff;
+  color: #ffffff;
   font-size: 80px;
   letter-spacing: -1px;
   line-height: 0.8;
@@ -14,7 +14,7 @@ header {
 h1 {
   text-align: left;
   font-family: 'Russo One', sans-serif;
-  color: #fff;
+  color: #ffffff;
   font-size: 35px;
   letter-spacing: -1px;
   line-height: 0;
@@ -25,7 +25,7 @@ h1 {
 p {
   text-align: center;
   font-family: 'Russo One', sans-serif;
-  color: #fff;
+  color: #ffffff;
   font-size: 35px;
   letter-spacing: -1px;
   word-spacing: 10px;
@@ -35,7 +35,7 @@ p {
 
 #position {
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   font-size: 40px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: red;
@@ -44,7 +44,7 @@ p {
 .rosterNames {
   text-align: center;
   font-family: 'Russo One', sans-serif;
-  color: #fff;
+  color: #ffffff;
   font-size: 35px;
   letter-spacing: -1px;
   line-height: 1;
@@ -62,7 +62,7 @@ body {
 
 a:link,
 a:visited {
-  color: #fff;
+  color: #ffffff;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: red;
   text-decoration: none;
@@ -71,7 +71,7 @@ a:visited {
 a:hover {
   color: red;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: #ffffff;
   text-decoration: overline;
   text-align: center;
 }
